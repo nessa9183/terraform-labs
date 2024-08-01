@@ -88,7 +88,7 @@ resource "azurerm_network_security_group" "nsg2" {
   }
 
   security_rule {
-    name                       = "rule2"
+    name                      = "rule2"
     priority                   = 200
     direction                  = "Inbound"
     access                     = "Allow"
